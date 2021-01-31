@@ -1,0 +1,6 @@
+Computer programming, History of programming
+From Wikipedia, the free encyclopedia (081110)
+
+The earliest known programmable machine (that is a machine whose
+behavior can be controlled by changes to a
+"program") was Al-Jazari's programmable humanoid robot in 1206.

@@ -1,0 +1,7 @@
+35243 ; Växjö
+96133 ; Boden
+90325 ; Umeå
+51000 ; Jönköping
+75242 ; Uppsala
+72211 ; Västerås
+23642 ; Höllviken
