@@ -35,7 +35,8 @@ export default class WeatherApp {
     weatherButton.addEventListener('click', () => {
       const city = weatherCity.value
       if (city) {
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=3eb68686c010511244c1f09797509ffe').then(
+      	//'http://api.openweathermap.org/data/2.5/weather?q=' / '&units=metric&appid=3eb68686c010511244c1f09797509ffe'
+        fetch(city).then(
           response => {
             return response.json()
           }).then(weather => {
