@@ -1,0 +1,21 @@
+{
+  "name": "a02-javascript",
+  "version": "1.0.0",
+  "description": "Template for assignment A02 \"Code JavaScript with browser\".",
+  "main": "index.js",
+  "scripts": {
+    "message": "echo \"YO SHUT THE FUCK UP\" && exit 1",
+    "test": "npx htmlhint ./web || exit 0",
+    "build": " npx html-minifier -c .html-minifier.conf web/hangman.html || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv525/student/lg222sv/a02-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "htmlhint": "^0.14.1"
+  }
+}

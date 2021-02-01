@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>Snowpack App</title>
+</head>
+
+<body class="bubble">
+  <h1>Quizz</h1>
+  <div id="content"></div>
+  <form id="myForm" onsubmit="return false">
+    <label id="question"></label><br>
+    <input type="text" id="nameOfPlayer">
+    <input type="submit" id="submitName">
+    <div id="alternate"></div>
+    <br>
+    <input type="text" id="response">
+    <input type="submit" id="sendButton">
+    <input type="submit" id="nextquestion" value="Next Question">
+    <input type="submit" id="restart" value="RESTART">
+    <label id="endMessage"></label> <br>
+    <br>
+   <div id="timer">
+      <label id="time">10</label> second(s)
+   </div>
+   
+     
+   </div>
+   <div id="highScoreTable"></div>
+
+  </form>
+  <script type="module" src="/_dist_/index.js"></script>
+</body>
+
+
+</html>

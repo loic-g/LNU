@@ -1,0 +1,10 @@
+.bubble{
+    border:2px;
+    border-style: solid;
+    border-color: #15418c; 
+    margin: 10px;
+    text-align: center;
+}
+.highScoreTable{
+  text-align: center;
+}

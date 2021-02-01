@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+  <title>A03</title>
+</head>
+
+<body>
+
+  <main>
+    <div id="window"></div>
+    <footer>
+      <nav>
+        <button><img id="chatB" src="/_dist_/img/chat.png" width="40px" alt=""></button>
+        <button><img id="memory" src="/_dist_/img/memory.png" width="40px" alt=""></button>
+        <button><img id="weather" src="/_dist_/img/cloudy.png" width="40px" alt=""></button>
+      </nav>
+    </footer>
+
+    <template id="chat">
+      <div id="chatDiv" class="chatDiv">
+        <div id="chatHeader" class="chatHeader">
+          <i><img style="margin-right: 150px;" src="/_dist_/img/chat.png" width="20px"></i>
+
+          <a id="closeButton"><img src="/_dist_/img/cancel.png"></a>
+        </div>
+        <div id="chatContent" class="chatContent">
+          <div id="CSetting">
+            <input type="text" placeholder="Write username" id="addNewUser">
+          </div>
+        </div>
+        <div id="chatSendMessage" class="chatSendMessage">
+
+          <textarea placeholder="Write message here!" id="sendMSG" cols="30" rows="2"></textarea>
+        </div>
+
+      </div>
+    </template>
+
+    <template id="memoryGame">
+      <div id="memoryDiv" class="memoryDiv">
+        <div id="memoryHeader" class="memoryHeader">
+          <i><img style="margin-right: 70px;" src="/_dist_/img/memory.png" width="20px"></i>
+          <a id="closeButtonM"><img src="/_dist_/img/cancel.png"></a>
+        </div>
+        <div id="memoryContent" class="memoryContent">
+          <div id="memorySelect">
+            Choose the size of the game! <br>
+            <br>
+            <button id="fourbyfour">4x4</button>
+            <button id="twobytwo">2x2</button>
+            <button id="twobyfour">2x4</button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template id="weatherApp">
+      <div id="weatherDiv" class="weatherDiv">
+        <div id="weatherHeader" class="weatherHeader">
+          <i><img style="margin-right: 220px;" src="/_dist_/img/cloudy.png" width="20px"></i>
+          <a id="closeButtonW"><img src="/_dist_/img/cancel.png"></a>
+        </div>
+        <div id="weatherContent" class="weatherContent">
+          <div id="weatherSelect">
+            Welcome to the Weather App, please write down bellow the name of the city you want to find! <br><br>
+            <input id="weatherCity" type="text" placeholder="Write down the city!">
+            <button id="weatherBut">SEND</button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template id="msgTemplate">
+      <div id="messageDiv" class="msgDiv">
+        <label id="username"></label>
+        <label id="msg"></label>
+      </div>
+    </template>
+
+    <template id="weatherTemplate">
+      <div id="weatherInfo">
+        <div>
+          <div id="weatherTemp" class="col2"></div>
+          <div id="weatherDesc" class="col2"></div>
+        </div>
+        <div>
+          <div id="weatherMin" class="col4"></div>
+          <div id="weatherMax" class="col4"></div>
+          <div id="weatherHumidity" class="col4"></div>
+          <div id="weatherWind" class="col4"></div>
+        </div>
+      </div>
+    </template>
+  </main>
+
+
+
+
+
+
+  <script type="module" src="/_dist_/app.js"></script>
+</body>
+
+</html>

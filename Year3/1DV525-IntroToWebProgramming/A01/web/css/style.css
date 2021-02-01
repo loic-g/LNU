@@ -1,0 +1,240 @@
+/* Loic GALLAND A01*/
+body{
+    background-image: url("../img/stars.jpg");
+    background-color: black;
+    color:white;
+    font-family: 'Expletus Sans', cursive;
+}
+
+.header{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+    color: #F4F4F4;
+    font-family: 'Calligraffitti';font-size: 22px;
+}
+
+.companyName{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+a.nav{
+    text-decoration: none;
+    color:#F4F4F4;
+    
+}
+
+img.moonpic{
+}
+
+.navbar{
+    text-align: center;
+    height:25px;
+    padding: 10px 0;
+    background-color: #15418c;
+    border: 1px solid #F4F4F4;
+    color: #F4F4F4;
+    margin-bottom: 10px;
+    height: auto;
+    
+    
+}
+
+article.byline{
+    border:2px;
+    border-style: solid;
+    border-color: #15418c; 
+    margin: 10px;
+    height: 160px;    
+}
+img.bylineimg{
+    float: left;
+    width: 10%;
+    margin: 5px;
+}
+img.flash{
+    width: 100%;
+    
+}
+article.imagepageart{
+    margin: 10px 10px 10px 10px;
+}
+
+main.background{
+    background-image: url("../img/futuristicscene.jpg") ;
+    background-size: cover;
+    height: 500px;
+    color: whitesmoke;
+    border: 1px solid white;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+aside.rightaside{
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #15418c;
+    height: auto;
+    border: 1px solid white;
+}
+
+aside.leftaside{
+    width: 10%;
+    
+    padding-right: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic; 
+    height:400px
+}
+img.imgleftaside{
+    max-width:100%;
+    max-height: 100%;
+    
+    
+}
+img.bloodmoonimg{
+   max-width: 40%;
+   
+}
+
+.column {
+    float: left;
+    width: 19%;
+    margin: 1px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+footer{
+    background-color: #15418c ;
+    color: #F4F4F4;
+    border: 1px solid  white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.footerLink{
+    color: #F4F4F4 ;
+}
+
+.articlepage{
+    background-color:  #F4F4F4;
+    border: 2px solid #CACACA;
+    color: black;
+}
+
+.imgleftmobile{
+    max-width: 80%;
+    height: auto;
+}
+.asideLinks{
+    background-color: white;
+    border: 2px solid #CACACA;
+    color: black;
+    height: 400px;
+    text-align: center;
+}
+.asideLinks2{
+   
+    color: white;
+    height: auto;
+    text-align: center;
+}
+.formsbubble{
+    background-color:  #F4F4F4;
+    border: 2px solid #CACACA;
+    color: black;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    
+}
+.javabubble{
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 2px solid #CACACA;
+    color: black;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.bloodmoon{
+    width: 23%;
+    float: left;    
+    margin: 2px;
+    text-align: center;
+}
+input.expirationDateM{
+    width: 50px;
+}
+tr.tablestripped:nth-child(even) {
+    background:#15418c;
+    padding: 5px;
+}
+tr.tablestripped:nth-child(odd) {
+    background: white;
+    color: black;
+}
+.tablepagemain{
+    background-color: white;
+    
+    padding: 10px;
+    height: 270px;
+    width: 235px;
+    margin: auto;
+}
+.tablepage{
+ margin: auto;
+}
+.column2{
+    float: left;
+    width: 60%;
+    margin: 1px;
+    text-align: center;
+}
+.column3{
+    float: left;
+    width: 33%;
+    margin: 1px;
+    text-align: center;
+}
+.triptych{
+    background-color: white;
+    color: black;
+    border: 3px solid #15418c;
+    padding: 10px;
+    
+}
+.maincol2{
+    margin: 10px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  

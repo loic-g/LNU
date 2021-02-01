@@ -1,0 +1,27 @@
+.navbar{
+    text-align: center;
+    height:25px;
+    padding: 10px 0;
+    background-color: #15418c;
+    border: 1px solid #F4F4F4;
+    color: #F4F4F4;
+    margin-bottom: 10px;
+    height: auto;
+    
+    
+}
+
+a.nav{
+    text-decoration: none;
+    color:#F4F4F4;
+
+    
+}
+article{
+    border:2px;
+    border-style: solid;
+    border-color: #15418c; 
+    margin: 10px;
+    text-align: center;
+     
+}

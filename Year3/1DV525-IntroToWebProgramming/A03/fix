@@ -1,0 +1,145 @@
+
+> @ lint C:\Users\Loic PC\Documents\School\LNU_Computer_Technology\Year3_2020_2021\1DV525\a03-spa
+> npx eslint ./src || exit 0
+
+
+C:\Users\Loic PC\Documents\School\LNU_Computer_Technology\Year3_2020_2021\1DV525\a03-spa\src\app.js
+   14:93  error    Trailing spaces not allowed                                       no-trailing-spaces
+   14:0   warning  JSDoc description does not satisfy the regex pattern              jsdoc/match-description
+   40:3   error    Trailing spaces not allowed                                       no-trailing-spaces
+   41:46  error    Trailing spaces not allowed                                       no-trailing-spaces
+   64:0   warning  There must be a newline after the description of the JSDoc block  jsdoc/newline-after-description
+   65:54  error    Trailing spaces not allowed                                       no-trailing-spaces
+   90:0   warning  There must be a newline after the description of the JSDoc block  jsdoc/newline-after-description
+   91:55  error    Trailing spaces not allowed                                       no-trailing-spaces
+  114:0   warning  JSDoc description does not satisfy the regex pattern              jsdoc/match-description
+  128:48  error    Trailing spaces not allowed                                       no-trailing-spaces
+  130:5   error    Trailing spaces not allowed                                       no-trailing-spaces
+  131:0   error    Missing JSDoc @param "event" type                                 jsdoc/require-param-type
+  131:34  error    Trailing spaces not allowed                                       no-trailing-spaces
+  153:56  error    Trailing spaces not allowed                                       no-trailing-spaces
+  155:5   error    Trailing spaces not allowed                                       no-trailing-spaces
+  156:0   error    Missing JSDoc @param "event" type                                 jsdoc/require-param-type
+
+C:\Users\Loic PC\Documents\School\LNU_Computer_Technology\Year3_2020_2021\1DV525\a03-spa\src\chat.js
+    1:27  error    Block must not be padded by blank lines                                       padded-blocks
+    4:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+    5:18  error    Trailing spaces not allowed                                                   no-trailing-spaces
+    5:0   warning  Invalid JSDoc tag (preference). Replace "constructor" JSDoc tag with "class"  jsdoc/check-tag-names
+   16:66  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   18:5   error    Trailing spaces not allowed                                                   no-trailing-spaces
+   62:30  error    Expected space or tab after '//' in comment                                   spaced-comment
+   62:54  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   83:0   warning  JSDoc description does not satisfy the regex pattern                          jsdoc/match-description
+   92:1   error    Expected indentation of 2 spaces but found 0                                  indent
+   93:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+   94:28  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   96:3   error    Expected blank line between class members                                     lines-between-class-members
+  103:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  103:1   error    Missing JSDoc @returns declaration                                            jsdoc/require-returns
+  104:39  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  104:0   warning  JSDoc description does not satisfy the regex pattern                          jsdoc/match-description
+  105:50  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  128:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  129:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+  130:39  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  147:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  148:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+  148:57  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  159:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  160:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+  163:3   error    Expected blank line between class members                                     lines-between-class-members
+
+C:\Users\Loic PC\Documents\School\LNU_Computer_Technology\Year3_2020_2021\1DV525\a03-spa\src\memoryGame.js
+    2:33  error    Block must not be padded by blank lines                                       padded-blocks
+    5:0   warning  JSDoc description does not satisfy the regex pattern                          jsdoc/match-description
+    5:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+    6:0   warning  Invalid JSDoc tag (preference). Replace "constructor" JSDoc tag with "class"  jsdoc/check-tag-names
+   17:68  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   18:67  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   19:5   error    Trailing spaces not allowed                                                   no-trailing-spaces
+   51:3   error    Missing JSDoc @returns declaration                                            jsdoc/require-returns
+   52:0   warning  JSDoc description does not satisfy the regex pattern                          jsdoc/match-description
+   52:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+   53:43  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   53:0   warning  The type 'array' is undefined                                                 jsdoc/no-undefined-types
+   53:0   warning  Invalid JSDoc @param "arr" type "array"; prefer: "Array"                      jsdoc/check-types
+   66:67  error    Trailing spaces not allowed                                                   no-trailing-spaces
+   67:5   error    Trailing spaces not allowed                                                   no-trailing-spaces
+   74:1   error    Trailing spaces not allowed                                                   no-trailing-spaces
+  102:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  103:97  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  104:3   error    Trailing spaces not allowed                                                   no-trailing-spaces
+  108:3   error    Expected blank line between class members                                     lines-between-class-members
+  166:67  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  166:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+  173:1   error    Trailing spaces not allowed                                                   no-trailing-spaces
+  200:1   error    Expected indentation of 2 spaces but found 0                                  indent
+  201:0   warning  Expected JSDoc block to be aligned                                            jsdoc/check-alignment
+  201:0   warning  There must be a newline after the description of the JSDoc block              jsdoc/newline-after-description
+  201:66  error    Trailing spaces not allowed                                                   no-trailing-spaces
+  204:3   error    Expected blank line between class members                                     lines-between-class-members
+
+C:\Users\Loic PC\Documents\School\LNU_Computer_Technology\Year3_2020_2021\1DV525\a03-spa\src\weatherApp.js
+   1:33  error    Block must not be padded by blank lines                                             padded-blocks
+   4:0   warning  There must be a newline after the description of the JSDoc block                    jsdoc/newline-after-description
+   4:0   warning  JSDoc description does not satisfy the regex pattern                                jsdoc/match-description
+   5:18  error    Trailing spaces not allowed                                                         no-trailing-spaces
+   5:0   warning  Invalid JSDoc tag (preference). Replace "constructor" JSDoc tag with "class"        jsdoc/check-tag-names
+   8:14  error    Missing space before function parentheses                                           space-before-function-paren
+  12:3   error    Missing JSDoc @param "weatherHeader" declaration                                    jsdoc/require-param
+  12:3   error    Missing JSDoc @param "weatherDiv" declaration                                       jsdoc/require-param
+  13:0   warning  Expected JSDoc block to be aligned                                                  jsdoc/check-alignment
+  13:67  error    Trailing spaces not allowed                                                         no-trailing-spaces
+  14:62  error    Trailing spaces not allowed                                                         no-trailing-spaces
+  16:6   error    Trailing spaces not allowed                                                         no-trailing-spaces
+  17:0   error    Expected @param names to be "weatherDiv, weatherHeader". Got "chatDiv, chatHeader"  jsdoc/check-param-names
+  20:6   error    Missing space before function parentheses                                           space-before-function-paren
+  42:1   error    Expected indentation of 10 spaces but found 12                                      indent
+  43:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  44:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  45:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  46:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  47:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  48:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  49:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  50:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  51:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  53:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  54:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  56:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  57:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  58:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  59:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  61:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  62:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  63:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  64:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  66:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  67:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  68:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  70:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  71:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  72:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  74:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  75:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  76:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  78:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  79:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  80:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  82:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  83:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  84:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  85:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  87:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  88:1   error    Expected indentation of 10 spaces but found 12                                      indent
+  89:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  90:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  91:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  92:1   error    Expected indentation of 12 spaces but found 14                                      indent
+  93:1   error    Expected indentation of 10 spaces but found 12                                      indent
+  94:1   error    Expected indentation of 8 spaces but found 10                                       indent
+
+✖ 129 problems (103 errors, 26 warnings)
+  98 errors and 18 warnings potentially fixable with the `--fix` option.
+
