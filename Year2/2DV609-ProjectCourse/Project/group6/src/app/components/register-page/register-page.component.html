@@ -1,0 +1,50 @@
+<p class="panel-heading" id="TitleBox">
+  Register
+</p>
+<div class="box has-text-link" id="BigBox">
+  <div class="columns is-vcentered">
+    <div class="login column is-center">
+      <p>
+        Please login or register to be able to access the website
+      </p>
+      <section class="section">
+        <form [formGroup]="register">
+          <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-right">
+              <input class="input is-info" type="text" formControlName="name" required>
+              <span class="icon is-small is-right">
+                <fa-icon icon="user"></fa-icon>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-right">
+              <input class="input is-info" type="email" formControlName="email" required>
+              <span class="icon is-small is-right">
+                <fa-icon icon="envelope-square"></fa-icon>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-right">
+              <input class="input is-info" type="password" formControlName="password" required>
+              <span class="icon is-small is-right">
+                <fa-icon icon="key"></fa-icon>
+              </span>
+            </div>
+          </div>
+          <div class="has-text-centered">
+            <button [disabled]='!register.valid'class="button is-vcentered is-info is-outlined"
+              (click)="registerUser(register.value); register.reset()" type="submit"> Register </button>
+          </div>
+          <div class="has-text-centered is-info">
+            <a routerLink="/login">Already have an account? Login now!</a>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>

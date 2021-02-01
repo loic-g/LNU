@@ -1,0 +1,118 @@
+<form [formGroup]="testAdd">
+    ADD
+    <label>
+        Email:
+        <input type="text" formControlName="email">
+    </label>
+    <label>
+        Name
+        <input type="text" formControlName="name">
+    </label>
+    <label>
+        <button class="button" (click)="addUser(testAdd.value); testAdd.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<form [formGroup]="testUpdate">
+    UPDATE
+    <label>
+        UserID
+        <input type="text" formControlName="userID">
+    </label>
+    <label>
+        Update
+        <input type="text" formControlName="update">
+    </label>
+    
+    <label>
+        <button class="button" (click)="updateUser(testUpdate.value); testUpdate.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<form [formGroup]="testDelete">
+    DELETE
+    <label>
+        UserID
+        <input type="text" formControlName="userID">
+    </label>
+   <label>
+        <button class="button" (click)="deleteUser(testDelete.value); testDelete.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<button class="button" (click)="createChat()" type="submit">ADD CHAT</button>
+<button class="button" (click)="addMessage()" type="submit">ADD MESSAGE TO CHAT</button>
+
+
+<form [formGroup]="testImportUser">
+    Import User by userID
+    <label>
+        UserID
+        <input type="text" formControlName="userID">
+    </label>
+   <label>
+        <button class="button" (click)="importUserTest(testImportUser.value); testImportUser.reset()" type="submit"> </button>
+    </label>
+</form>
+<form [formGroup]="testImportFriend">
+    Import Friend by userID
+    <label>
+        UserID
+        <input type="text" formControlName="userID">
+    </label>
+   <label>
+        <button class="button" (click)="importFriendTest(testImportFriend.value); testImportFriend.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<form [formGroup]="testImportConversation">
+    Import Conv by convID
+    <label>
+        ConversationID
+        <input type="text" formControlName="convID">
+    </label>
+   <label>
+        <button class="button" (click)="importConvTest(testImportConversation.value); testImportConversation.reset()" type="submit"> </button>
+    </label>
+</form>
+
+
+<form [formGroup]="testAuthRegister">
+    Register User
+    <label>
+        Username
+        <input type="text" formControlName="username">
+    </label>
+    <label>
+        Email
+        <input type="email" formControlName="email">
+    </label>
+    <label>
+        password
+        <input type="password" formControlName="password">
+    </label>
+   <label>
+        <button class="button" (click)="registerUser(testAuthRegister.value); testAuthRegister.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<form [formGroup]="testAuthLogin">
+    Login User
+    
+    <label>
+        Email
+        <input type="email" formControlName="email">
+    </label>
+    <label>
+        password
+        <input type="password" formControlName="password">
+    </label>
+   <label>
+        <button class="button" (click)="login(testAuthLogin.value); testAuthLogin.reset()" type="submit"> </button>
+    </label>
+</form>
+
+<button class="button" [routerLink]="['/conversation/','BK4gTAGfRQcPADN3Y3vF']" type="submit"> </button>
+
+
+

@@ -1,0 +1,11 @@
+#authUser{
+    background-color: hsl(217, 71%, 53%);
+    text-align: right;
+}
+#areatbox{
+    background-color: whitesmoke;
+}
+
+.box{
+    margin: 10px;
+}

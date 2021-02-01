@@ -1,0 +1,45 @@
+<section *ngIf="authService.isLoggedIn" class="hero is-fullheight">
+    <div class="columns is-marginless is-vcentered is-multiline is-centered">
+        <div class="box has-text-link has-text-centered is-centered" id="profilebox">
+            <div class="column is-12  has-text-centered">
+                <div class="box has-text-link is-vcentered" id="overlay">
+                    <img src="https://picsum.photos/300" alt="Italian Trulli">
+                </div>
+            </div>
+            <div *ngIf="controller.getUser() != null  " class="column is-12 has-text-centered">
+                <h2 class="is-size-5">{{[(controller.getUser().getName())]}}</h2>
+            </div>
+        </div>
+        <div class="column is-12 "> 
+            <nav class="panel is-fullwidth">
+
+                    <p class="panel-heading">
+                        <button routerLink="friendsList" class="button is-fullwidth is-link">Friend List</button> 
+                    </p>
+
+                <div class="panel-block" *ngFor="let friend of controller.getUser().getFriends()">
+                        {{friend.getName()}}
+                </div>
+
+
+                
+                <div class="panel-block">
+                    <div class="buttons">
+                        <button routerLink="addFriend" class="button is-link  is-fullwidth">
+                            ADD Friend
+                        </button>
+                        <button routerLink="groupChats"class="button is-link  is-fullwidth">
+                            Group Chats
+                        </button>
+                        <button routerLink="myProfile" class="button is-link  is-fullwidth">
+                            My Profile
+                        </button>
+                        <button (click)="signOut()" type="submit" class="button is-danger  is-fullwidth">
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>

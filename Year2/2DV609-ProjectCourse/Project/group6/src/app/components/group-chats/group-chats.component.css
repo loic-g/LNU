@@ -1,0 +1,15 @@
+#defaultbox{
+    min-height: 500px;
+    background-color:whitesmoke;
+}
+
+#areatbox{
+    min-height: 300px;
+    min-height: 200px;
+    background-color:white;
+}
+
+
+#greybox{
+    background-color: whitesmoke;
+}

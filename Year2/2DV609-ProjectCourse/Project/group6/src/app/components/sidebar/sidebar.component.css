@@ -1,0 +1,26 @@
+.sticky	{
+	position: sticky;
+  	top: 30px;
+}
+
+.hello {
+	overflow-y: auto; 
+	max-height: 220px;
+}
+
+.panel-block{
+	min-width: 200px;
+}
+
+h2{
+	font-weight: bold;
+}
+
+#profilebox{
+	background-color:whitesmoke;
+}
+#overlay{
+	width: 180px;
+	height: 180px;
+	background-color: white;
+}

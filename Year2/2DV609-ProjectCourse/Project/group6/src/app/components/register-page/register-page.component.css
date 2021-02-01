@@ -1,0 +1,47 @@
+
+
+.input {
+  border-radius: 50px;
+
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 150px;
+}
+
+.login-logo {
+  margin: 0 auto 50px;
+  max-height: 100px;
+
+}
+#TitleBox{
+  width: 500px;
+  
+}
+#BigBox{
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 500px;
+  max-height: 500px;
+  background-color:whitesmoke;
+}
+
+.columns.is-vcentered{
+  margin: 0px;
+}
+.section {
+  width: 380px;
+  height: 480px;
+  position: center;
+  margin: 6% auto;
+  padding: 5px;
+}
+.login-logo {
+  width: 80px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 rgba(127, 127, 127, 0.24);
+  cursor: pointer;
+  border-radius: 50px;
+}

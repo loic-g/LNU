@@ -1,0 +1,41 @@
+<p class="panel-heading">
+    Chat
+</p>
+<div class="box has-text-link" id="areatbox">
+    <div *ngFor="let message of messages$ | async">
+        <div *ngIf='message.user.userID != controller.getUser().userID' class="box">
+            <ul>
+                <li>
+                    <strong>{{ message.text}}</strong>
+                    <br>
+                    {{message.user.name}}
+                </li>
+            </ul>
+        </div>
+        <div id='authUser' *ngIf='message.user.userID === controller.getUser().userID' class="box">
+            <ul>
+                <li>
+                    <strong>{{ message.text}}</strong>
+                    <br>
+                    {{message.user.name}}
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <form [formGroup]="messageToSend" >
+        <div class="columns">
+            <div class='column is-11'>
+                <input class="input" formControlName="message" type="text" placeholder="Write message">
+
+            </div>
+            <div class='column '>
+                <button class="button is-vcentered is-info is-outlined" (click)="sendMessage(messageToSend.value); messageToSend.reset()"
+                type="submit"> Login </button>
+  
+            </div>
+
+        </div>
+    </form>
+
+</div>

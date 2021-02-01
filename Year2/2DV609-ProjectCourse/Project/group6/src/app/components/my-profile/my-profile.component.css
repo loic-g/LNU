@@ -1,0 +1,12 @@
+#defaultbox {
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 800px;
+    background-color: whitesmoke;
+}
+#imagebox {
+    min-width: 300px;
+    min-height: 300px;
+    max-height: 350px;
+    background-color: white;
+}

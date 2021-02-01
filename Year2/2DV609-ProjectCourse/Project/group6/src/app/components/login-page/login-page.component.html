@@ -1,0 +1,43 @@
+<p class="panel-heading" id="TitleBox">
+  Login
+</p>
+<div class="box has-text-link" id="BigBox">
+  <div class="columns is-centered">
+    <div class="login column ">
+      <p>
+        Please login or register to be able to access the website
+      </p>
+      <section class="section">
+
+        <form [formGroup]="login">
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-right">
+              <input class="input is-info" type="text" formControlName="email" required>
+              <span class="icon is-small is-right">
+                <fa-icon icon="user"></fa-icon>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-right">
+              <input class="input is-info" type="password" formControlName="password" required>
+              <span class="icon is-small is-right">
+                <fa-icon icon="key"></fa-icon>
+              </span>
+            </div>
+          </div>
+          <div class="has-text-centered">
+            <button [disabled]='!login.valid' class="button is-vcentered is-info is-outlined" (click)="loginUser(login.value); login.reset()"
+              type="submit"> Login </button>
+
+          </div>
+          <div class="has-text-centered">
+            <a routerLink="/register"> Don't have an account? Sign up now!</a>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
