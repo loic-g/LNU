@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.navbar{
+  text-align: right;
+  width: 100%;
+  color: #F4F4F4;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background-color: #15418c;
+  padding: 20px;
+
+}
+.nav{
+
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid white;
+  margin: auto;
+  color: white;
+}
+
+.flash{
+  background-color: lightblue ;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.snippet{
+  margin: 10px
+}

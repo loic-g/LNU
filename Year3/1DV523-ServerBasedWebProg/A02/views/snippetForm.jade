@@ -1,0 +1,10 @@
+extends layout
+block content
+    if flash
+        p.flash #{flash}
+    form(method="post")
+        span.label Adding snippet:
+        p
+            textarea.snippet(name="textarea", cols="50",rows="10",required=true)
+        p
+            input(type="submit", name="doit", value="Add Snippet")

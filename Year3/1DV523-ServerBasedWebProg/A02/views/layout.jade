@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block navbar
+      header.navbar
+        nav
+        if !user
+          a.nav(href='./../auth/login') Login
+          a.nav(href='./../auth/register') Register
+        else
+          a.nav(href='./../auth/logout') Logout
+          a.nav(href=`./../profile/${user}`) My profile
+          a.nav(href='./../crud/add') Add
+          a.nav(href='./../crud/update') Update
+          a.nav(href='./../crud/delete') Delete
+    block content

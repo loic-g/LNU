@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 Welcome to code snippets
+    if flash
+      p.flash #{flash}
+
+    div
+        each snippet in snippets
+            textarea.snippet(readonly= "readonly", cols="50",rows="10") #{snippet.snippet}

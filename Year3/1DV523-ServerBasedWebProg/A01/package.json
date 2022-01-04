@@ -1,0 +1,27 @@
+{
+  "name": "a01-web-scraper",
+  "version": "1.0.0",
+  "description": "A01 Server Based Web Programming course",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv523/student/lg222sv/a01-web-scraper.git"
+  },
+  "keywords": [],
+  "author": "Loic Galland (lg222sv)",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fetch-retry": "^4.0.1",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "standard": "^16.0.2"
+  }
+}

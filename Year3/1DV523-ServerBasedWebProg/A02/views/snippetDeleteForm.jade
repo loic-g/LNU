@@ -1,0 +1,11 @@
+extends layout
+block content
+    if flash
+        p.flash #{flash}
+    h1 Select and Delete snippet:
+    form(method="post")
+        each snippet in snippets
+          input(type="radio", value=snippet._id, name="deletingSnippet")
+          textarea.snippet(name=snippet._id, value=snippet._id,cols="50",rows="10",required=true, readonly=true) #{snippet.snippet}
+        p
+          input(type="submit", name="doit", value="Delete Snippet")
