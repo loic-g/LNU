@@ -1,0 +1,19 @@
+
+1
+java:S3626y"Remove this redundant jump.(ûÁİ…
+h
+java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(È±†
+E
+java:S6212h"/Declare this local variable with "var" instead.(˜´¥Í
+[
+java:S2147o"ECombine this catch with the one at line 109, which has the same body.(¯áè
+[
+java:S2147q"ECombine this catch with the one at line 109, which has the same body.(Å¡ß
+`
+java:S2147s"ECombine this catch with the one at line 109, which has the same body.(îÍùÿÿÿÿ
+J
+java:S6212|"/Declare this local variable with "var" instead.(Íªäúÿÿÿÿ
+a
+java:S2147¡"ECombine this catch with the one at line 159, which has the same body.(¥¨›ıÿÿÿÿ
+a
+java:S2147£"ECombine this catch with the one at line 159, which has the same body.(ÿëÛßúÿÿÿÿ

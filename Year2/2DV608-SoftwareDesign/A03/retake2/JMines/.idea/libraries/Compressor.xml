@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Compressor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/res/lib/Compressor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
